@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #FF7175;
+}
+
+body {
+    text-align: center;
+    width: 88vw;
+}
+
+form {
+    text-align: left;
+    width: 92vw;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 29px;
+    text-shadow: 5px 5px 3px pink;
+}
+
+h1::after {
+    content: '💞💓';
+}
+
+h3 {
+    font-weight: 700;
+    text-shadow: 5px 5px 3px pink;
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+button {
+    color: white;
+    background: #E65048;
+    border: none;
+    border-radius: 20.5px;
+    width: 182px;
+    height: 42px;
+    cursor: pointer;
+    box-shadow: 5px 5px 3px pink;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+h2 {
+    text-shadow: 5px 5px 3px pink;
+    font-size: 32px;
+    text-decoration: underline;
+}
+
+h2::after {
+    content: '💕';
+}
